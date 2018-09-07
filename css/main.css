@@ -154,6 +154,9 @@ h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
 }
+h1.md-heading {
+  font-size: 3.5rem;
+}
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
@@ -379,4 +382,18 @@ main#home h1 {
   .projects {
     grid-template-columns: 1fr;
   }
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  border: white solid 3px;
+}
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
 }

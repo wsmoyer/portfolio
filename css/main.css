@@ -6,6 +6,10 @@
   cursor: pointer;
   transition: all 0.7s ease-out;
 }
+p.bio {
+  font-size: 15px;
+  line-height: 1.2;
+}
 .menu-btn .btn-line {
   width: 28px;
   height: 3px;

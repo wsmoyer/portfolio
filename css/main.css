@@ -220,9 +220,16 @@ main#home h1 {
 }
 
 .bio-img {
+  background-image: url('../img/WillowMoyer.jpg');
+  background-repeat: round;
+  background-size: 250px 590px;
+  background-clip: border-box;
+  background-position-x: 20px;
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
+  width: 220px;
+  height: 280px;
   border: #f9ca06 3px solid;
 }
 .web-img {

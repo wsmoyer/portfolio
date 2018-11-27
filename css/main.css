@@ -8,7 +8,10 @@
 }
 p.bio {
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.7;
+}
+.capstone-links {
+  margin-top: 15px;
 }
 .menu-btn .btn-line {
   width: 28px;
@@ -243,6 +246,7 @@ main#home h1 {
 .sum {
   grid-area: sum;
   font-size: 1.3rem;
+  line-height: 170%;
 }
 
 .job-1 {
@@ -342,6 +346,13 @@ main#home h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .web-img {
+    display: none;
+  }
+  .capstone-links {
+    margin-top: 20px;
+    font-size: 20px;
+  }
   main {
     align-items: center;
     text-align: center;

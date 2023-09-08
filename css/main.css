@@ -1,3 +1,9 @@
+:root {
+  --main-bg-color: #CF9FFF;
+  --main-accent-color: #292C33
+;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -81,7 +87,7 @@ p.bio {
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #f9ca06;
+  color: var(--main-bg-color);
 }
 .menu .nav-link {
   display: inline-block;
@@ -94,10 +100,10 @@ p.bio {
   transition: all 0.7s ease-out;
 }
 .menu .nav-link:hover {
-  color: #f9ca06;
+  color: var(--main-bg-color);
 }
 .link:hover {
-  color: #f9ca06;
+  color: var(--main-bg-color);
   transition: all 0.7s ease-out;
 }
 
@@ -179,7 +185,7 @@ header {
 }
 
 .text-secondary {
-  color: #f9ca06;
+  color: var(--main-bg-color);
 }
 .text-white {
   color: #ffffff;
@@ -195,7 +201,7 @@ main .icons a {
   padding: 0.4rem;
 }
 main .icons a:hover {
-  color: #f9ca06;
+  color: var(--main-bg-color);
   transition: all 0.7s ease-out;
 }
 main#home {
@@ -233,7 +239,7 @@ main#home h1 {
   border-radius: 50%;
   width: 220px;
   height: 280px;
-  border: #f9ca06 3px solid;
+  border: var(--main-bg-color) 3px solid;
 }
 .web-img {
   grid-area: webimg;
@@ -263,7 +269,7 @@ main#home h1 {
 
 .job {
   background: #626262;
-  border-bottom: #f9ca06 5px solid;
+  border-bottom: var(--main-bg-color) 5px solid;
   padding: 0.5rem;
 }
 
@@ -279,7 +285,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #f9ca06;
+  border-color: var(--main-bg-color);
   transition: all 0.7s ease-out;
 }
 
@@ -298,8 +304,7 @@ main#home h1 {
   transition: all 0.7s ease-out;
 }
 .boxes div:hover {
-  padding: 0.5rem 1.5rem;
-  background: #f9ca06;
+  background: var(--main-bg-color);
   color: #000;
 }
 .boxes div:hover span {
@@ -317,7 +322,7 @@ main#home h1 {
 .btn:hover,
 .btn-dark:hover,
 .btn-light:hover {
-  background: #f9ca06;
+  background: var(--main-bg-color);
   color: #000;
 }
 

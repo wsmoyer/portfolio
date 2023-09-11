@@ -30,5 +30,9 @@ const imgs = document.querySelectorAll('.imgs img');
 const opacity = 0.4;
 
 imgs.forEach(img =>
-  img.addEventListener('click', e => (current.src = e.target.src))
+  img.addEventListener('click', e => {current.src = e.target.src; console.log('here');window.scrollTo({
+    top: 200,
+    left: 0,
+    behavior: "smooth",
+  })})
 );

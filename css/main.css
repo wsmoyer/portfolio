@@ -271,6 +271,9 @@ main#home h1 {
   background: #626262;
   border-bottom: var(--main-bg-color) 5px solid;
   padding: 0.5rem;
+  -webkit-box-shadow: 5px 5px 15px -8px #000000; 
+box-shadow: 5px 5px 15px -8px #000000;
+border-radius: 5px;
 }
 
 .projects {
@@ -302,6 +305,9 @@ main#home h1 {
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
   transition: all 0.7s ease-out;
+  -webkit-box-shadow: 5px 5px 15px -8px #000000; 
+  box-shadow: 5px 5px 15px -8px #000000;
+  border-radius: 5px;
 }
 .boxes div:hover {
   background: var(--main-bg-color);
